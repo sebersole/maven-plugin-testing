@@ -1,0 +1,6 @@
+repositories {
+	mavenCentral()
+}
+
+group = 'org.hibernate.sandbox.maven'
+version = '1.0.0-SNAPSHOT'

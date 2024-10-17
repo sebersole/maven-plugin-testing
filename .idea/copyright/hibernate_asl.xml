@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="keyword" value="Hibernate, Relational Persistence for Idiomatic Java" />
+    <option name="notice" value="Hibernate, Relational Persistence for Idiomatic Java&#10;&#10;SPDX-License-Identifier: Apache-2.0&#10;Copyright: Red Hat Inc. and Hibernate Authors" />
+    <option name="myName" value="hibernate-asl" />
+  </copyright>
+</component>

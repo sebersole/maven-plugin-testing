@@ -1,0 +1,14 @@
+plugins {
+    id 'java-project'
+    id 'maven-embedder'
+}
+
+// plays the role of `hibernate-maven-plugin`
+
+dependencies {
+    implementation project( ":maven-plugin-testing-core" )
+
+    implementation "org.apache.maven:maven-plugin-api:3.6.3"
+    implementation "org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.0"
+    implementation "org.apache.maven:maven-project:2.2.1"
+}

@@ -1,0 +1,9 @@
+pluginManagement {
+	includeBuild 'local-build-plugins'
+}
+
+rootProject.name = 'maven-plugin-testing'
+
+include 'maven-plugin-testing-core'
+include 'maven-plugin-testing-plugin'
+
