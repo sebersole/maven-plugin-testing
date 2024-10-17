@@ -1,11 +1,10 @@
 .gradle
-build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-**/target
-**/build
+*/target
+*/build
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -42,4 +41,4 @@ bin/
 .vscode/
 
 ### Mac OS ###
-.DS_Store
+.DS_Store!
