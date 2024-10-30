@@ -13,6 +13,7 @@ dependencies {
 	implementation "org.apache.maven:maven-compat:3.9.9"
 	implementation "org.apache.maven.resolver:maven-resolver-connector-basic:1.9.18"
 	implementation "org.apache.maven.resolver:maven-resolver-transport-http:1.9.18"
+	implementation "org.slf4j:slf4j-reload4j:2.0.16"
 }
 
 gradlePlugin {

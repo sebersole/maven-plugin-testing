@@ -11,4 +11,16 @@ dependencies {
     implementation "org.apache.maven:maven-plugin-api:3.6.3"
     implementation "org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.0"
     implementation "org.apache.maven:maven-project:2.2.1"
+
+    embedder "org.apache.maven:maven-embedder:3.9.9"
+    embedder "org.apache.maven:maven-compat:3.9.9"
+    embedder "org.apache.maven.resolver:maven-resolver-connector-basic:1.9.18"
+    embedder "org.apache.maven.resolver:maven-resolver-transport-http:1.9.18"
+
+    embedder "org.apache.maven:maven-plugin-api:3.6.3"
+    embedder "org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.0"
+    embedder "org.apache.maven:maven-project:2.2.1"
+
+    embedder "org.slf4j:slf4j-api:2.0.16"
+    embedder "org.slf4j:slf4j-reload4j:2.0.16"
 }

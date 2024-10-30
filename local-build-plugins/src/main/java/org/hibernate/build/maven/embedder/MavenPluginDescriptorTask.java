@@ -2,11 +2,9 @@ package org.hibernate.build.maven.embedder;
 
 import org.gradle.api.DefaultTask;
 import org.gradle.api.file.DirectoryProperty;
-import org.gradle.api.file.RegularFileProperty;
 import org.gradle.api.provider.Property;
 import org.gradle.api.services.ServiceReference;
 import org.gradle.api.tasks.OutputDirectory;
-import org.gradle.api.tasks.OutputFile;
 import org.gradle.api.tasks.TaskAction;
 
 /**
@@ -27,7 +25,7 @@ public abstract class MavenPluginDescriptorTask extends DefaultTask {
 
 	@TaskAction
 	public void generateDescriptor() {
-		getMavenEmbedderService().get().execute( "plugin:descriptor" );
+		getMavenEmbedderService().get().getEmbedderDelegate().execute( "plugin:descriptor" );
 //		getMavenEmbedderService().get().execute( "plugin:addPluginArtifactMetadata" );
 	}
 }
